@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      front-family: Arial, sans-serif;
+      background-color: #FFD4E2;
+      color: #333；
+      text-align: center;
+    }
+
+    .intro-screen {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center；
+    }
+
+    .continue-bth {
+      matgin-top: 20px;
+      padding: 12px 28px;
+      background-color: #FC7EA3;
+      border: none;
+      border-radious: 25px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.25s;
+    }
+
+    .continue-bth:hover {
+      background-color: #7D7376;
+    }
+
+    .section-menu {
+      display: none;
+      padding: 60px 20px;
+    }
+
+    .menu-links a {
+      font-size: 24px;
+      text-decoration: none;
+      padding: 12px 20px;
+      background-color: #FFE5ED；
+      border-radius: 15px;
+      color: #333;
+      transition: 0.25s;
+    }
+
+    .menu-link a:hover {
+      background-color: #FFD4E1;
+    }
+  </style>
+
+  <script>
+    function showMenu() {
+      document.querySelector('.intro-screen').style.display = 'none';
+      document.querySelector('.section-menu').style.display = 'block';
+    }
+  </script>
+  /head>
+
+  body>
+    <!-- Intro Screen -->
+    <dic class="intro-screen">
+      <h1>Hi, I'm Cloris</h1>
+      <p>Welcom to my personal website where I share my life,
+      <button class="continue-btn" onclick="showMenu()">Continue</button>
+    </div>
+
+    <!-- Main Menu -->
+    <div class="section-menu">
+      <h2>Explore My Work</h2>
+
+      <div class="menu-links">
+        <a href="#" target="_blank">Volunteer</a>
+        <a href="#" target="_blank">Art Works</a>
+        <a href="#" target="_blank">Music</a>
+        <a href="#" target="_blank">More</a>
+      </div>
+    </div>
+    /body>
+    /html>
+        
+                
+      
+  
+  
